@@ -17,10 +17,10 @@ Add the following configuration to your `composer.json` file:
 ],
 ```
 
-Next, add idloom/phpcs to the require section of your `composer.json` file:
+Next, add idloom/phpcs to the require-dev section of your `composer.json` file:
 
 ```json
-"require": {
+"require-dev": {
     "idloom/phpcs": "^1.0"
 },
 ```
