@@ -1,0 +1,17 @@
+{
+    "name": "idloom/phpcs",
+    "description": "idloom's PHP coding standard",
+    "type": "phpcodesniffer-standard",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "scripts": {
+        "post-package-install": "vendor/bin/phpcs --config-set default_standard idloom"
+    },
+    "version": "1.0"
+}
