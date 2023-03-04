@@ -12,6 +12,5 @@
     },
     "scripts": {
         "post-package-install": "vendor/bin/phpcs --config-set default_standard idloom"
-    },
-    "version": "1.0"
+    }
 }
